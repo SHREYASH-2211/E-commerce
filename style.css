@@ -1,0 +1,9 @@
+.checked{
+    color:orange
+}
+#feature{
+    background: linear-gradient(to bottom, #00ffff 0%, #0066ff 100%);
+}
+*{
+    scroll-behavior: smooth;
+   }
