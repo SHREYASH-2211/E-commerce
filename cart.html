@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+
+    <!-- style.css For Custom Styling -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- fontawesome cdn For Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEys
+    h0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Let's Shop | Home</title>
+  </head>
+  <body>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    
+    
+    <section class="header_menu" id="header_menu">
+        <div class="container-fluid px-0 shadow">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 ">
+        <a class="navbar-brand pl-5 pl-small-0" href="index.html">
+        <img src="Assests/Logo.png" class="img img-fluid" width="120px"
+        alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+            </li>
+        <li class="nav-item">
+        <a class="nav-link" href="product.html">Product</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="category.html">Category</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+        </ul>
+        <div class="search mr-3">
+        <a href="search.html" class="btn btn-sm btn-outline-primary">
+        Search
+        </a>
+        </div>
+        <div class="cart">
+        <a href="cart.html">
+            <i style="font-size:40px" class="fa">&#xf07a;</i>
+        <span class="badge badge-pill badge-primary">24</span>
+        </a>
+        </div>
+        </div>
+        </nav>
+        </div>
+        </section>
+
+        <section class="cart py-5 my-5" id="cart">
+            <div class="container ">
+            <div class="section_title text-center mb-5">
+            <h1 class="text-capitalize"><u>Cart</u></h1>
+            </div>
+            <div class="row bg_cart_1 rounded">
+            <!--Grid column-->
+            <div class="col-md-8 border-right">
+            <!-- Card -->
+            <div class="mb-3">
+            <div class="pt-4">
+            <h5 class="mb-4">Cart (<span>2</span> items)</h5>
+            <div class="row mb-4">
+            <div class="col-md-5 col-lg-3 col-xl-3">
+            <div class="rounded mb-3 mb-md-0">
+            <img class="img-fluid w-100 rounded"
+            src="Assests/product1.png"
+            alt="Sample">
+            </div>
+            </div>
+            <div class="col-md-7 col-lg-9 col-xl-9">
+            <div>
+            <div class="d-flex justify-content-between">
+            <div>
+            <h5>Iphone 15 pro max</h5>
+            <p class="mb-2 text-muted text-uppercase small">Color:
+            Black</p>
+            <p class="mb-3 text-muted text-uppercase small">With Charger</p>
+            </p>
+            </div>
+            <div>
+            <div class="mb-0 w-100">
+            <button
+            onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+            class="btn btn-sm btn-outline-primary">
+            
+            <i class="fa fa-minus"></i>
+            </button>
+            <input class="quantity text-center" min="0" max="10"
+            name="quantity"
+            value="1" type="number">
+            <button
+            onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+            class="btn btn-sm btn-outline-primary">
+            <i class="fa fa-plus"></i>
+            </button>
+            </div>
+            <small class="form-text text-muted text-center">
+            (Note: 1 piece Available) 
+            </small>
+            </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+            <div>
+            <a href="javascript:;" type="button"
+            class="small text-uppercase mr-3"><i
+            class="fa fa-trash-alt mr-1"></i> Remove item </a>
+            </div>
+            <p class="mb-0"><span><strong
+            id="summary">₹1,35,000</strong></span></p
+            class="mb-0">
+            </div>
+            </div>
+            </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row mb-4">
+            <div class="col-md-5 col-lg-3 col-xl-3">
+            <div class="rounded mb-3 mb-md-0">
+            <img class="img-fluid w-100 rounded"
+            src="Assests/product6.png"
+            alt="Sample">
+            </div>
+            </div>
+            <div class="col-md-7 col-lg-9 col-xl-9">
+            <div>
+            <div class="d-flex justify-content-between">
+            <div>
+            <h5>Samsung S23</h5>
+            <p class="mb-2 text-muted text-uppercase small">Color:
+            Black</p>
+            <p class="mb-3 text-muted text-uppercase small">With Charger</p>
+            </div>
+            <div>
+            <div class="mb-0 w-100">
+            <button
+            onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+            class="btn btn-sm btn-outline-primary">
+            <i class="fa fa-minus"></i>
+            </button>
+            <input class="quantity text-center" min="0" max="10"
+            name="quantity"
+            value="1" type="number">
+            <button
+            onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+            class="btn btn-sm btn-outline-primary">
+            <i class="fa fa-plus"></i>
+            </button>
+            </div>
+            </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+            <div>
+            <a href="javascript:;" type="button"
+            class="card-link-secondary small text-uppercase mr-3">
+            <i class="fa fa-trash-alt mr-1"></i> Remove item
+            </a>
+            </div>
+            <p class="mb-0"><span><strong>₹59,000</strong></span></p
+            class="mb-0">
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <div class="col-md-4 rounded">
+            <!-- Card -->
+            <div class="mb-3">
+            <div class="pt-4">
+            <h5 class="mb-3">Order summary</h5>
+            <ul class="list-group list-group-flush">
+            <li
+            class="list-group-item d-flex justify-content-between
+            align-items-center border-0 px-0 pb-2">
+            <span>Iphone 15 pro max</span>
+            <span>x1</span>
+            <span>₹1,35,000</span>
+            </li>
+            <li
+            class="list-group-item d-flex justify-content-between
+            align-items-center border-0 px-0 pb-2">
+            <span>Samsung S23</span>
+            <span>x1</span>
+            <span>₹59,000</span>
+            </li>
+            <li
+            class="list-group-item d-flex justify-content-between
+            align-items-center border-top px-0 mb-3">
+            <div>
+            <strong>Total amount</strong>
+            <strong>
+            <p class="mb-0">(including VAT)</p>
+            </strong>
+            </div>
+            <span><strong>₹1,94,000</strong></span>
+            </li>
+            </ul>
+            <a href="checkout.html" class="btn btn-primary btn-block">Go to
+            Checkout</a>
+            </div>
+            </div>
+            <!-- Card -->
+            </div>
+            <!--Grid column-->
+            </div>
+            </div>
+            </section>
+            <section class="footer_section pt-5 pb-2" id="footer_section">
+              <footer>
+              <div class="container-fluid">
+              <div class="row">
+              <div class="col-md-3 col-6 pl-5 pl-small-15">
+              <div class="footer_title">
+              <a href="index.html"><img src="Assests/Logo.png" width="150px"
+              class="img img-fluid" alt="logo"></a>
+              </div>
+              <div>
+              "Let's Shop: Your Style, Your Choice!"
+              </div>
+              </div>
+              <div class="col-md-3 col-6">
+              <div class="footer_title pt-3 mb-3">
+              <h3>Quick Links</h3>
+              </div>
+              <div class="footer_links">
+              <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="javascript:;">Offers & Discounts</a></li>
+              <li><a href="javascript:;">Get Coupon</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+              </div>
+              </div>
+              <div class="col-md-3 col-6">
+              <div class="footer_title pt-3 mb-3">
+              <h3>New Products</h3>
+              </div>
+              <div class="footer_links">
+              <ul>
+              <li><a href="javascript:;">Smartwatches</a></li>
+              <li><a href="javascript:;">Phone</a></li>
+              <li><a href="javascript:;">Laptop</a></li>
+              <li><a href="javascript:;">Computer</a></li>
+              </ul>
+              </div>
+              </div>
+              <div class="col-md-3 col-6">
+              <div class="footer_title pt-3 mb-3">
+              <h3>Support</h3>
+              </div>
+              <div class="footer_links">
+              <ul>
+              <li><a href="javascript:;">Frequently Asked Questions</a></li>
+              <li><a href="javascript:;">Terms & Conditions</a></li>
+              <li><a href="javascript:;">Privacy Policy</a></li>
+              <li><a href="javascript:;">Report a Payment Issue</a></li>
+              </ul>
+              </div>
+              </div>
+              </div>
+              </div>
+              <div class="border-top">
+              <h6 class="text-center mt-3">Copyright ©2023 All rights reserved
+              </h6>
+              </div>
+              </footer>
+              </section>
+              <div class="backtop">
+              <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACZklEQVR4nO2aP08UQRiHn4rFQgOJgp2UFkclndgZiAlGSoTPYCB8C8RCA4mx9SMIF+UbEGMtdweVJxqIUIsQxkzyXnLZzP6bffd298Iv+SV3t7vvzHPvzOzM7MKNhlfjwCKwCTSBFnAOXIjt5wM5Zs95AYxREQXACrAHXAEmo+01n4FliTVw3QLWgWOPykf5J7AGjA4K4hlwpAgQ9iEwXySATf27AgHC/iiZV9Uk8G2AEEb8FZjQgpiSdJuS3JE65NI9GUZNyT4C7vtCjJbUnExMM/Maot9XoPIm5C2fIVaj4BNgRnyiFHMuLYRNX1uhwFNgui/uQ+CXQtzDtDfNdaVMNByxG0qZWU2TjWNFiH6YhiJMN6njryhD2O89uY7lKetlHMieUp+w/eG3/N6T65w8faYZt564UsyEcYAknWsy+BK44wJZVM5EFIhmZhZcIG88gz1K+HddIOHMzHiW/doFsusZbDbhhhcF0oOx1z7xLHvHBdLxDJbkOJC8brlAzmoIcuoCuaghyN+hBjkblqbVriHIgQukWUOQTy6QzRqCbGhOUcoEWXCBjOWYNJYB8i9q0mj1pUYgu8RouUYgS3EggeyKVx2kC4yQoLUagLxKguhlpVVhkE6WHcd5xYIf51hvmJCvgadk1LZyc9DwWzwUyMaxqYj303TwKN2t0GOFSXJqqsBlcBq3gQcoaaKkZrYvD5sKeRh6PSCID0U/e58ruKm1fIZYXwWytd9VBPghd+xS3oAIZFe8KXuxWSt/KbPYpTxDq7bs2uC5bGPuyHr6T99LNfbzd1mebsii6LZ6LW5ENfQfkFYXF0PryqEAAAAASUVORK5CYII=">
+              </a>
+              </div>
+
+
+</body>
